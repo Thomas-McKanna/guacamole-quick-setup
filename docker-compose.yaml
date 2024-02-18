@@ -44,5 +44,3 @@ services:
       - TZ=Etc/UTC
     shm_size: "1gb" #optional
     restart: unless-stopped
-    ports:
-      - 3389:3389
